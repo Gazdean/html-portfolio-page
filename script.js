@@ -1,11 +1,10 @@
 const projectsData = [
   {
     title: "NC-News Backend Project",
-    description: "A backend Project using Postgres, Sql and render to go live",
+    description: "A backend Project using Postgres, Sql and render to go live, add /api to view all available endpoints",
     image: "./Assets/Images/database.png",
     github: "https://github.com/Gazdean/be-nc1-news1",
     liveProject:"https://newsflash-e6p1.onrender.com",
-    borderColor:"red"
   },
   {
     title: "NC-News Frontend Project",
@@ -16,11 +15,10 @@ const projectsData = [
   },
   {
     title: "Flush Finder",
-    description: "frontend react toilet finding project whih allows you to use current location or a city drop down menu to find the toilets around you, and allows filtering by accessibilty, unisex and changing table to help those with particular needs",
+    description: "A local toilet finder app, use current location or a city drop down menu to find the toilets around you, allows filtering to help those with particular needs",
     image: "./Assets/Images/flush-finder.png",
-    githubLink: "https://github.com/OJ423/flush-finder",
-    liveProjectLink:"",
-    borderColor:"red"
+    github: "https://github.com/OJ423/flush-finder",
+    liveProject:"",
   },
 ];
 
@@ -45,8 +43,6 @@ function renderProjects() {
     imageElement.src = project.image;
     imageElement.alt = `a screen shot of the ${project.title} project`;
     imageElement.className = "project-image";
-    imageElement.style.border = `2px solid ${project.borderColor}`;
-  
 
     const descriptionElement = document.createElement("p");
     descriptionElement.textContent = project.description;
@@ -60,17 +56,19 @@ function renderProjects() {
     const githubAnchorElement = document.createElement("a")
     githubAnchorElement.href = project.github
     githubAnchorElement.setAttribute("aria-label", `${project.title} GitHub Link`);
+    githubAnchorElement.className = `project-link`
 
     const liveProjectAnchorElement = document.createElement("a")
     liveProjectAnchorElement.href = project.liveProject
     liveProjectAnchorElement.setAttribute("aria-label", `${project.title} Live Project Link`);
+    liveProjectAnchorElement.className = `project-link`
   
 
     const githubIconElement = document.createElement("i")
-    githubIconElement.className = githubIcon
+    githubIconElement.className = `${githubIcon} right-icon`
 
     const liveProjectIconElement = document.createElement("i")
-    liveProjectIconElement.className = webIcon
+    liveProjectIconElement.className = `${webIcon} left-icon`
 
     githubAnchorElement.appendChild(githubIconElement)
 
