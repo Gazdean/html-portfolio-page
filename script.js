@@ -1,21 +1,21 @@
 const projectsData = [
   {
     title: "NC-News Backend Project",
-    description: "A backend Project using Postgres, Sql and render to go live, add /api to view all available endpoints",
+    description: "A backend Project using Postgres, Sql and render to go live, add /a.p.i. to view all available endpoints",
     image: "./Assets/Images/database.png",
     github: "https://github.com/Gazdean/be-nc1-news1",
     liveProject:"https://newsflash-e6p1.onrender.com",
   },
   {
     title: "NC-News Frontend Project",
-    description: "frontend react project which uses the NC-News backend project as an api",
+    description: "A react project which uses the NC-News backend project as an a.p.i.",
     image: "./Assets/Images/nc-news-frontend.png",
     github: "https://github.com/Gazdean/fe-nc-news",
     liveProject:""
   },
   {
     title: "Flush Finder",
-    description: "A local toilet finder app, use current location or a city drop down menu to find the toilets around you, allows filtering to help those with particular needs",
+    description: "A toilet finder app, use current location or a city drop down menu to find the toilets around you, allows filtering to help those with particular needs",
     image: "./Assets/Images/flush-finder.png",
     github: "https://github.com/OJ423/flush-finder",
     liveProject:"",
@@ -32,8 +32,6 @@ function renderProjects() {
   projectsData.forEach((project) => {
     const projectElement = document.createElement("div");
     projectElement.className = "project";
-
-    console.log(projectElement)
 
     const titleElement = document.createElement("h3");
     titleElement.textContent = project.title;
@@ -90,3 +88,14 @@ function renderProjects() {
 
 // Call the function when the page is loaded
 document.addEventListener("DOMContentLoaded", renderProjects);
+
+// const letterG = document.getElementById("letter-g")
+
+// letterG.addEventListener('mouseover', ()=> {
+//   console.dir(letterG)
+//   letterG.innerText="Gareth";
+// } );
+
+// letterG.addEventListener('mouseout', () => {
+//   // Assuming you want to remove the last child (the added text node)
+//   letterG.innerText="G";;})

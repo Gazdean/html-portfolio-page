@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: #363838;
+    color: #E8E8E8;
     width:100%;
     padding: 0;
     margin: 0;
@@ -67,10 +68,22 @@ li {
 }
 
 .home-name {
-    color: #E8E8E8;;
+    color: #E8E8E8;
+    margin:50px;
+
+    display: flex;
+    justify-content: center;
 }
 
+.home-name span {
+    display: inline-block;
+    text-align: center;
+}
+
+
 h2 {
+    letter-spacing: 2px;
+    font-size: 25px;
     color: #E8E8E8;
 }
 
@@ -80,7 +93,10 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .project {
@@ -91,16 +107,12 @@ h2 {
     align-items: center;
     background-color: #E8E8E8;
     border-radius: 20px 0 20px 0;
-    width: 70%;
+    width: 75%;
     min-height: 350px;
     border: 4px solid white;
     padding: 10px 0 10px 0;
     margin-bottom: 40px;
 }
-
-/* #projects-container :active {
-    transform: scale(1.1);
-} */
 
 .project-image {
     width: auto;
@@ -131,8 +143,23 @@ i {
 }
 
 #about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 50px;
-    margin:0;
+}
+
+.gallery-image {
+    width: auto;
+    max-width: 230px;
+    height: auto;
+    max-height: 160px;
+    border: 1px solid #363838;
+    border-radius: 15px
+}
+
+#contact-container {
+    padding-bottom: 50px;
 }
 
 .section-header {
@@ -141,9 +168,14 @@ i {
    color: #E8E8E8;
 }
 
+.contact-icon {
+    color: #E8E8E8
+}
+
 
 footer {
     background-color: #E8E8E8;
+    color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -165,18 +197,22 @@ footer {
 
     h1 span { 
         display: inline-block;
-        transition: all 0.1s ease-out;
+        transition: all 0.7s ease-out;
     }
 
     h1 span:hover {
         transform: scale(1.5);
-        color: red;
+        color: blue;
         cursor: pointer;
     }
 
     .right-icon:hover {
         transform: scale(1.35) rotate(15deg);;
         color: blue;
+    }
+
+    .project {
+        width: 50%;
     }
 
     .left-icon:hover {
@@ -187,4 +223,9 @@ footer {
     .project:hover {
         border: 4px solid blue;
     }
+
+    #about-text {
+        width:50%
+    }
+
 }
