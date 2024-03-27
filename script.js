@@ -20,6 +20,13 @@ const projectsData = [
     github: "https://github.com/OJ423/flush-finder",
     liveProject:"",
   },
+  {
+    title: "Squircles Game",
+    description: "A spatial memory game built with React and styled using Bootstrap. The player is shown 3 squircle shapes which must then be recreated using 3 sliders.  Two game stories are available, a random practice game and a daily game which is the same for all players this uses local storage to keep track of the player's stats ",
+    image: "./Assets/Images/squirclesgame.png",
+    github: "https://github.com/OJ423/flush-finder",
+    liveProject:"https://squirclesgame.com/",
+  },
 ];
 
 const githubIcon = "fab fa-github"
