@@ -11,7 +11,7 @@ const projectsData = [
     description: "A react project which uses the NC-News backend project as an a.p.i.",
     image: "./Assets/Images/nc-news-frontend.png",
     github: "https://github.com/Gazdean/fe-nc-news",
-    liveProject:""
+    liveProject:"https://gd-nc-news.netlify.app/"
   },
   {
     title: "Flush Finder",
