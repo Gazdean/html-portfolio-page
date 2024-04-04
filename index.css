@@ -151,10 +151,10 @@ i {
 }
 
 .gallery-image {
-    width: auto;
-    max-width: 230px;
+    width: 230px;
+    /* max-width: 230px; */
     height: auto;
-    max-height: 160px;
+    /* max-height: 160px; */
     border: 1px solid #363838;
     border-radius: 15px
 }
