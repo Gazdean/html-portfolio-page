@@ -68,9 +68,10 @@ li {
 }
 
 .home-name {
+    font-size: 80px;
     color: #E8E8E8;
     margin:50px;
-
+    padding-left: 0;
     display: flex;
     justify-content: center;
 }
