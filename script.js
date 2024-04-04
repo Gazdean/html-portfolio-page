@@ -63,24 +63,28 @@ function renderProjects() {
     githubAnchorElement.setAttribute("aria-label", `${project.title} GitHub Link`);
     githubAnchorElement.className = `project-link`
 
+    const githubIconElement = document.createElement("i")
+    githubIconElement.className = `${githubIcon} right-icon`
+
+    githubAnchorElement.appendChild(githubIconElement)
+
+    iconContainer.appendChild(githubAnchorElement)
+
+  
+
+    if(project.liveProject.length) {
     const liveProjectAnchorElement = document.createElement("a")
     liveProjectAnchorElement.href = project.liveProject
     liveProjectAnchorElement.setAttribute("aria-label", `${project.title} Live Project Link`);
     liveProjectAnchorElement.className = `project-link`
   
-
-    const githubIconElement = document.createElement("i")
-    githubIconElement.className = `${githubIcon} right-icon`
-
     const liveProjectIconElement = document.createElement("i")
     liveProjectIconElement.className = `${webIcon} left-icon`
-
-    githubAnchorElement.appendChild(githubIconElement)
 
     liveProjectAnchorElement.appendChild(liveProjectIconElement)
 
     iconContainer.appendChild(liveProjectAnchorElement)
-    iconContainer.appendChild(githubAnchorElement)
+    }
 
     projectElement.appendChild(titleElement);
     projectElement.appendChild(imageElement);
@@ -89,7 +93,6 @@ function renderProjects() {
 
     projectsContainer.appendChild(projectElement);
    
-    
   });
 }
 
