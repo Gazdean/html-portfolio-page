@@ -98,14 +98,3 @@ function renderProjects() {
 
 // Call the function when the page is loaded
 document.addEventListener("DOMContentLoaded", renderProjects);
-
-// const letterG = document.getElementById("letter-g")
-
-// letterG.addEventListener('mouseover', ()=> {
-//   console.dir(letterG)
-//   letterG.innerText="Gareth";
-// } );
-
-// letterG.addEventListener('mouseout', () => {
-//   // Assuming you want to remove the last child (the added text node)
-//   letterG.innerText="G";;})
