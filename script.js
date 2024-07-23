@@ -27,6 +27,13 @@ const projectsData = [
     github: "https://github.com/OJ423/flush-finder",
     liveProject:"https://squirclesgame.com/",
   },
+  {
+    title: "Gather Events",
+    description: "An events platform for a small business, allowing staff to create events and share with users. Users can sign up for events and add them to their personal calendar. Built using React, React-Bootstrap and Firebase for authentication, it also utilises several API's including Google calendar API, Unsplash API for images and interacts with the Eventbrite API to create and fetch events ",
+    image: "./Assets/Images/gatherEvents.png",
+    github: "https://github.com/Gazdean/events-front-end",
+    liveProject:"https://gatherevents.netlify.app/",
+  },
 ];
 
 const githubIcon = "fab fa-github"
