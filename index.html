@@ -19,6 +19,11 @@
           </a>
         </li>
         <li>
+          <a href="#skills-container" aria-label="internal link to skills section">
+            <h4 class="nav-header">Skills_</h2>
+          </a>
+        </li>
+        <li>
           <a href="#about-container" aria-label="internal link to about section">
             <h4 class="nav-header">About_</h2>
           </a
@@ -32,17 +37,25 @@
       </ul>
     </nav>
     <main>
-      <div id="home-container">
+      <section id="home-container">
         <div id="home-card">
           <h1 id="first-name" class="home-name" >Gareth Dean</h1>
           <h2>Junior Software Engineer</h2>
-        </div>
+        </section>
       </div>
-      <div id="projects-container">
+      <section id="projects-container">
         <div class="offset-anchor"></div>
         <h2 class="section-header">Projects_</h2>
-      </div>
-      <div id="about-container">
+      </section>
+      <section id="skills-container">
+        <div class="offset-anchor"></div>
+        <h2 class="section-header">Skills_</h2>
+        <div id="skills-card">
+          <div id="skills-icons"></div>
+          <ul id="skills-list"></ul>
+        </div>
+      </section>
+      <section id="about-container">
         <h2 class="section-header">About_</h2>
         <p id="about-text">
           Give me a mountain and you will find me trying to climb it!<br><br>
@@ -51,15 +64,15 @@
           Throughout my Northcoders journey, I found many similarities to my previous career, from getting the structure of a website correct, (e.g. foundations, walls and floors) and functional parts (plumbing, electrics), to the UI (user interface) and UX (user experience) we don't want to be reaching too far for the towel and we certainly want the toilet roll holder to be where we expect it!! I will be taking my keen eye for detail, strong work ethic, close client communication and strong problem-solving skills into my new career.<br>
           At weekends you'll find me walking in the hills. I love exploring the Peak District, Snowdonia and the Lake District, add to that the odd trip to the Glencoe area for some winter walking, which led to planning to summit Mont Blanc which I achieved in 2018 with a group of 4 friends. If I'm not out in the middle of nowhere I enjoy attending many different types of sporting events and in the evenings meeting friends and going to see some live music. Even though I'm leaving the world of construction behind I still enjoy the odd home improvement project like the tradition domed pizza oven I built last year.
         <div id="gallery-container">
-          <img class="gallery-image" src="./Assets/Images/northcoders.jpg" alt="Gareth and final project team members at northcoders">
+          <img class="gallery-image" src="./Assets/Images/About-me-images/northcoders.jpg" alt="Gareth and final project team members at northcoders">
           <p>Final day at Northcoders, project group</p>
-          <img class="gallery-image" src="./Assets/Images/mont-blanc.jpg" alt="Gareth and friends at the summit of Mont Blanc">
+          <img class="gallery-image" src="./Assets/Images/About-me-images/mont-blanc.jpg" alt="Gareth and friends at the summit of Mont Blanc">
           <p>At the summit of Mont Blanc</p>
-          <img class="gallery-image" src="./Assets/Images/pizza-oven.png" alt="Gareth making pizza in his self built traditional brick pizza oven">
+          <img class="gallery-image" src="./Assets/Images/About-me-images/pizza-oven.png" alt="Gareth making pizza in his self built traditional brick pizza oven">
           <p>Self built brick pizza oven</p>
         </div>
-      </div>
-      <div id="contact-container">
+      </section>
+      <section id="contact-container">
         <h2 class="section-header">Contact_</h2>
         <p>Please dont hesitate to contact me</p>
         <a href="https://www.linkedin.com/in/gareth-dean-3879bb2a7/" aria-label="external link to linkedin">
@@ -68,7 +81,7 @@
         <a href="mailto:“gazDean77@gmail.com”" aria-label="link that opens email with addressed auto filled">
           <i class="fa fa-envelope right-icon contact-icon"></i>
         </a>
-      </div>
+      </section>
     </main>
     <footer>
       <p>Gareth Dean</p>
