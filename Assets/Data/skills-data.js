@@ -128,12 +128,17 @@ const skillsData = [
   {
     icon: "",
     iconColor:"",
-    title: "Front-End Coding",
+    title: "Front-End Development",
   },
   {
     icon: "",
     iconColor:"",
-    title: "Back-End Coding",
+    title: "Back-End Development",
+  },
+  {
+    icon: "",
+    iconColor:"",
+    title: "Error Handling",
   },
   
 ];
