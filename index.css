@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    background: hsl(0, 0%, 95%);
   }
 
 body {
@@ -16,14 +17,78 @@ body {
 
 #home-container {
     height: 100vh;
+    background: hsl(0, 0%, 95%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: black;
     
 }
+#home-card {
+    background: #E8E8E8;
+    color: black;
+    animation: shadowPulse 7s infinite ease-in-out, backgroundColorPulse 7s infinite ease-in-out;
+    border-radius: 40px;
+}
+#home-card span {
+    color: black;
+}
+#home-card h1, #home-card h2 {
+    color: black;
+}
+@keyframes backgroundColorPulse {
+    0% {
+      background-color: #E8E8E8;
+    }
+    25% {
+      background-color: #ECECEC;
+    }
+    50% {
+      background-color: #F0F0F0;
+    }
+    75% {
+      background-color: #ECECEC;
+    }
+    100% {
+      background-color: #E8E8E8;
+    }
+  }
 
+@keyframes shadowPulse {
+    0% {
+      box-shadow: 7px 0px 5px rgba(0, 0, 0, 0);
+    }
+    10% {
+      box-shadow: 7px 0px 7.5px rgba(0, 0, 0, 0.05);
+    }
+    20% {
+      box-shadow: 7px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    30% {
+      box-shadow: 7px 0px 12.5px rgba(0, 0, 0, 0.15);
+    }
+    40% {
+      box-shadow: 7px 0px 15px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      box-shadow: 7px 0px 17.5px rgba(0, 0, 0, 0.25);
+    }
+    60% {
+      box-shadow: 7px 0px 15px rgba(0, 0, 0, 0.2);
+    }
+    70% {
+      box-shadow: 7px 0px 12.5px rgba(0, 0, 0, 0.15);
+    }
+    80% {
+      box-shadow: 7px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    90% {
+      box-shadow: 7px 0px 7.5px rgba(0, 0, 0, 0.05);
+    }
+    100% {
+      box-shadow: 7px 0px 5px rgba(0, 0, 0, 0);
+    }
+  }
 nav {
     letter-spacing: 1px;
     position: fixed;
