@@ -254,6 +254,57 @@ footer {
 #copyright-icon {
     font-size: 12px;
 }
+#skills-container {
+    background: #363838;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+}
+#skills-card {
+    width: 100vw;
+    color: #363838;
+    background: #E8E8E8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+#skills-icons {
+    color: #363838;
+    background: #E8E8E8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+#skills-list {
+    width: 100vw;
+    color: #363838;
+    background: #E8E8E8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills-list li {
+    font-size: 12px;
+    border: 1px solid #363838;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px
+}
+
+.skill {
+    width: 100px;
+    padding: 15px
+}
+
+.skill-icon {
+    color: #363838
+}
 
 @media screen and (min-width:600px) {
     h1 {
@@ -283,7 +334,7 @@ footer {
     }
 
     .left-icon:hover {
-        transform: scale(1.35) rotate(-15deg);;
+        transform: scale(1.35) rotate(-15deg);
         color: blue;
     }
    
@@ -293,6 +344,25 @@ footer {
 
     #about-text {
         width:50%
+    }
+
+    #skills-card {
+        width: 60vw;
+        color: #363838;
+        border-radius: 30px;
+        background: #E8E8E8;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 50px;
+    }
+    #skills-list {
+        font-size: 20px;
+        width:70vw;
+    }
+    #skills-list li{
+        font-size: 15px;
     }
 
 }
