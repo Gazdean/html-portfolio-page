@@ -8,7 +8,7 @@ const projectsData = [
   },
   {
     title: "NC-News Frontend Project",
-    description: "A react project which uses the NC-News backend project as an a.p.i.",
+    description: "A react project,  which uses the NC-News backend project as an a.p.i.",
     image: "./Assets/Images/nc-news-frontend.png",
     github: "https://github.com/Gazdean/fe-nc-news",
     liveProject:"https://gd-nc-news.netlify.app/"
