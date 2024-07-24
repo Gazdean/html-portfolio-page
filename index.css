@@ -216,13 +216,31 @@ i {
     padding: 50px;
 }
 
+#about-text {
+    font-family: Helvetica;
+    line-height: 1.5;
+}
+#gallery-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+#gallery-items {
+    display: flex;
+    flex-direction: row;
+    margin: 20px
+}
+.gallery-item {
+    margin: 20px
+}
 .gallery-image {
     width: 230px;
     /* max-width: 230px; */
-    height: auto;
+    height: 250px;
     /* max-height: 160px; */
     border: 1px solid #363838;
-    border-radius: 15px
+    border-radius: 15px;
+    object-fit: cover;
 }
 
 #contact-container {
