@@ -1,4 +1,4 @@
-import projectsData from './Assets/ProjectData.js';
+import projectsData from './Assets/Data/projects-data.js';
 
 const githubIcon = "fab fa-github"
 const webIcon = "fas fa-globe";
@@ -66,6 +66,8 @@ function renderProjects() {
    
   });
 }
+
+
 
 // Call the function when the page is loaded
 document.addEventListener("DOMContentLoaded", renderProjects);
