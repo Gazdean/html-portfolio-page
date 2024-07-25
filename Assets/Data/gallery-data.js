@@ -14,6 +14,11 @@ const galleryData = [
         title: "Self built brick pizza oven",
         altText: "Gareth making pizza in his self built tradition brick pizza oven"
     },
+    {
+        imageSrc: "./Assets/Images/Gallery-images/puppers.jpg",
+        title: "My beautiful pups",
+        altText: "A labrador laid down and jack russell sitting, both looking at the camera, in a field with the sun rise and hill behing them"
+    }
 ]
 
 export default galleryData;
