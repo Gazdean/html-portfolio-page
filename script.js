@@ -85,7 +85,7 @@ function renderSkills() {
     iconElement.style.color = skill.iconColor || '';
     iconElement.style.background = skill.iconBackground || '';
     skillElement.appendChild(iconElement);
-    const titleElement = document.createElement("h5");
+    const titleElement = document.createElement("h3");
     titleElement.textContent = skill.title;
     titleElement.className = "skill-title"
     skillElement.appendChild(titleElement);

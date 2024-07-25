@@ -1,0 +1,49 @@
+#tank {
+    margin: 20px;
+    margin-bottom: 2px;
+    width: 40px; 
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tank-body {
+    width: 40px;
+    height: 13px;
+    background-color: rgb(120, 230, 54);
+}
+#tank-turet {
+    width:10px;
+    height:6px;
+    background-color: rgb(120, 230, 54);
+}
+#tank-top {
+    width: 33px;
+    height:4px;
+    background-color: rgb(120, 230, 54);
+}
+#tank-gun {
+    width: 3px;
+    height: 3px;
+    background-color: rgb(120, 230, 54);
+}
+
+#tank {
+  z-index: 10;
+    bottom: 0%;
+    position: relative;
+    animation: run 20s linear infinite;
+  }
+  
+  @keyframes run {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: calc(100% - 78px);
+    }
+    100% {
+      left: 0;    
+    }
+  }
