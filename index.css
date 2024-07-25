@@ -227,6 +227,7 @@ i {
 }
 #gallery-items {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     margin: 20px
 }
