@@ -15,12 +15,19 @@ function createAndPositionDiv(id, x, y, width, height, colour) {
     let currentHeight = height;
     
     if (newDiv.id === 'laserTrail') {
+        let screenWidth = window.innerWidth;
+        console.log(screenWidth) 
+        let intervalTime = 8
+        if (screenWidth < 450) intervalTime = 5
         function laserTrailHeightIncrease () {
-            currentHeight += 1.03
+            let increaseInHeight = 1.04
+            
+            if (screenWidth < 450) increaseInHeight = 0.925
+            currentHeight += increaseInHeight
             newDiv.style.height = `${currentHeight}px`
             newDiv.style.top = `${y - currentHeight + height}px`;  
         }
-        setInterval(laserTrailHeightIncrease, 8)
+        setInterval(laserTrailHeightIncrease, intervalTime)
     }
 }
 

@@ -1,4 +1,5 @@
 #laser {
+    z-index: 11;
     position: absolute; 
     animation: laserShot 2s linear forwards; /* Move upwards and stop at the end */
 }
@@ -8,7 +9,7 @@
         top: 84%; /* Start at the bottom of the container */
     }
     100% {
-        top: -4px; /* Move up by its height (and a bit more to ensure it goes out of view) */
+        top: -10px; /* Move up by its height (and a bit more to ensure it goes out of view) */
     }
 }
 

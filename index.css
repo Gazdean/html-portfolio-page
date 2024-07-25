@@ -31,7 +31,7 @@ body {
     background: #E8E8E8;
     color: black;
     /* animation: shadowPulse 7s infinite ease-in-out, backgroundColorPulse 7s infinite ease-in-out; */
-    border-radius: 25px;
+
 }
 
 #home-card h1, #home-card h2 {
@@ -363,6 +363,10 @@ footer {
    
     .project:hover {
         border: 4px solid blue;
+    }
+    #home-card {
+        /* animation: shadowPulse 7s infinite ease-in-out, backgroundColorPulse 7s infinite ease-in-out; */
+        border-radius: 25px;
     }
 
     #about-text {
