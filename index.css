@@ -234,9 +234,9 @@ i {
     margin: 20px
 }
 .gallery-image {
-    width: 230px;
+    width: 280px;
     /* max-width: 230px; */
-    height: 250px;
+    height: 260px;
     /* max-height: 160px; */
     border: 1px solid #363838;
     border-radius: 15px;
