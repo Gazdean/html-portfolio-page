@@ -4,36 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="index.css" type="text/css" rel="stylesheet" />
+
+    <link href="./iAnimationCss/spaceInvaderTank.css" type="text/css" rel="stylesheet" />
+    <link href="./iAnimationCss/laser.css" type="text/css" rel="stylesheet" />
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anta">
     <script src="https://kit.fontawesome.com/e138839fb7.js" crossorigin="anonymous"></script>
     <script type="module" src="./script.js" defer></script>
     <script type="module" src="./scriptGallery.js" defer></script>
+
+    <script type="module" src="./scriptLaser.js" defer></script>
+    
     <title>Gareth Dean Portfolio</title>
+    <meta name="description" content="Portfolio website for Gareth Dean a Junior Software Developer">
   </head>
   <body>
 <!-- nav bar start -->
     <nav>
-      <h4 id="title-nav-bar"><a href="#">GarethDean_</a></h4>
+      <a id="title-nav-bar" href="#">GarethDean_</a>    
       <ul>
         <li>
-          <a href="#projects-container" aria-label="internal link to projects section">
-            <h4 class="nav-header">Projects_</h2>
+          <a class="nav-header" href="#projects-container" aria-label="internal link to projects section">
+            Projects_
           </a>
         </li>
         <li>
-          <a href="#skills-container" aria-label="internal link to skills section">
-            <h4 class="nav-header">Skills_</h2>
+          <a class="nav-header" href="#skills-container" aria-label="internal link to skills section">
+            Skills_
           </a>
         </li>
         <li>
-          <a href="#about-container" aria-label="internal link to about section">
-            <h4 class="nav-header">About_</h2>
+          <a class="nav-header" href="#about-container" aria-label="internal link to about section">
+            About_
           </a
           >
         </li>
         <li>
-          <a href="#contact-container" aria-label="internal link to contact section">
-            <h4 class="nav-header">Contact_</h2>
+          <a class="nav-header" href="#contact-container" aria-label="internal link to contact section">
+            Contact_
           </a>
         </li>
       </ul>
@@ -45,6 +53,12 @@
         <div id="home-card">
           <h1 id="first-name" class="home-name" >Gareth Dean</h1>
           <h2>Junior Software Engineer</h2>
+          <div id="tank">
+            <div id="tank-gun"></div>
+            <div id="tank-turet"></div>
+            <div id="tank-top"></div>
+            <div id="tank-body"></div>
+          </div>
         </div>
       </section>
 <!-- home end / projects start -->
@@ -73,7 +87,7 @@
         </p>
       </section>
 <!-- about-me end / gallery start -->
-      <section id="gallery-container">
+      <section id="gallery-container" aria-label="Gallery Images">
         <h2 class="section-header">Gallery_</h2>
         <div id="gallery-items">
         </div>

@@ -15,6 +15,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* home */
 #home-container {
     height: 100vh;
     background: hsl(0, 0%, 95%);
@@ -25,14 +26,14 @@ body {
     
 }
 #home-card {
+    position: relative;
+    overflow: hidden; 
     background: #E8E8E8;
     color: black;
-    animation: shadowPulse 7s infinite ease-in-out, backgroundColorPulse 7s infinite ease-in-out;
-    border-radius: 40px;
+    /* animation: shadowPulse 7s infinite ease-in-out, backgroundColorPulse 7s infinite ease-in-out; */
+    border-radius: 25px;
 }
-#home-card span {
-    color: black;
-}
+
 #home-card h1, #home-card h2 {
     color: black;
 }
@@ -89,6 +90,8 @@ body {
       box-shadow: 7px 0px 5px rgba(0, 0, 0, 0);
     }
   }
+
+/* nav bar */
 nav {
     letter-spacing: 1px;
     position: fixed;
@@ -229,6 +232,7 @@ i {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 20px
 }
 .gallery-item {

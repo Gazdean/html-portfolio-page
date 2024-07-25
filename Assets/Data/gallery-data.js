@@ -18,6 +18,11 @@ const galleryData = [
         imageSrc: "./Assets/Images/Gallery-images/puppers.jpg",
         title: "My beautiful pups",
         altText: "A labrador laid down and jack russell sitting, both looking at the camera, in a field with the sun rise and hill behing them"
+    },
+    {
+        imageSrc: "./Assets/Images/Gallery-images/guernseyWalk.jpg",
+        title: "Finish of the Guernsey costal walk",
+        altText: "Gareth and sister at the finish of the Guernsey coastal walk"
     }
 ]
 
