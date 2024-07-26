@@ -57,7 +57,7 @@ li {
 }
 
 .nav-header {
-    font-size: 12px
+    font-size: 8px;
 }
 
 /* Home */
@@ -401,6 +401,10 @@ footer {
 }
 
 @media screen and (min-width:600px) {
+    .nav-header {
+        font-size: 12px
+    }
+
     h1 {
         letter-spacing: 18px;
         font-size:100px;
