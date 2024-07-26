@@ -181,15 +181,21 @@ button {
 
 @keyframes backgroundColorPulse {
     0% {
+      background-color: #F0F0F0;
+    }
+    25% {
       background-color: #E8E8E8;
     }
     50% {
-      background-color: #ECECEC;
+      background-color: #D8D8D8;
     }
-    100% {
+    75% {
       background-color: #E8E8E8;
     }
-  }
+    100% {
+      background-color: #F0F0F0;
+    }
+  } 
 
 #gameControlArrow {
     font-size: 15px;
