@@ -1,15 +1,15 @@
-#laser {
+.laser {
     z-index: 11;
     position: absolute; 
-    animation: laserShot 2s linear forwards; /* Move upwards and stop at the end */
+    animation: laserShot 2s linear forwards;
 }
 
 @keyframes laserShot {
     0% {
-        top: 84%; /* Start at the bottom of the container */
+        top: 84%;
     }
     100% {
-        top: -10px; /* Move up by its height (and a bit more to ensure it goes out of view) */
+        top: -10px; 
     }
 }
 
