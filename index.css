@@ -163,6 +163,7 @@ button {
     margin-top: 10px;
     cursor: pointer
 }
+
 #reset {
     margin-top: 5px;
     cursor: pointer
@@ -174,7 +175,12 @@ button {
     top: -35px
 }
 
-.fa-angle-down {
+#gameControlArrow {
+    font-size: 15px;
+    cursor: pointer;
+}
+  /* game control show unshow */
+.fa-angle-down {    
     animation: backgroundColorPulse 7s infinite ease-in-out; 
     border-radius: 30px;
 }
@@ -197,10 +203,7 @@ button {
     }
   } 
 
-#gameControlArrow {
-    font-size: 15px;
-    cursor: pointer;
-}
+
 .gameControlsMoveDown {
     animation: moveDown 1s linear forwards;
 }
@@ -282,72 +285,8 @@ i {
     color: blue;
 }
 
- /* About */
-#about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-}
+/* Skills */
 
-#about-text {
-    font-family: Helvetica;
-    line-height: 1.5;
-}
-#gallery-container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-}
-#gallery-items {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 20px
-}
-.gallery-item {
-    margin: 20px
-}
-.gallery-image {
-    width: 280px;
-    /* max-width: 230px; */
-    height: 260px;
-    /* max-height: 160px; */
-    border: 1px solid #363838;
-    border-radius: 15px;
-    object-fit: cover;
-}
-
-#contact-container {
-    padding-bottom: 50px;
-}
-
-.section-header {
-    letter-spacing: 5px;
-   font-size: 40px;
-   color: #E8E8E8;
-}
-
-.contact-icon {
-    color: #E8E8E8
-}
-
-
-footer {
-    background-color: #E8E8E8;
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 14px;
-    border-top: 2px solid white;
-    height: 40px
-}
-
-#copyright-icon {
-    font-size: 12px;
-}
 #skills-container {
     background: #363838;
     display: flex;
@@ -400,6 +339,78 @@ footer {
     color: #363838
 }
 
+/* About */
+#about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#about-text {
+    font-family: Helvetica;
+    line-height: 1.5;
+}
+
+/* Gallery */
+#gallery-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+#gallery-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px
+}
+.gallery-item {
+    margin: 20px
+}
+.gallery-image {
+    width: 280px;
+    /* max-width: 230px; */
+    height: 260px;
+    /* max-height: 160px; */
+    border: 1px solid #363838;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* Conatct */
+#contact-container {
+    padding-bottom: 50px;
+}
+
+.section-header {
+    letter-spacing: 5px;
+   font-size: 40px;
+   color: #E8E8E8;
+}
+
+.contact-icon {
+    color: #E8E8E8
+}
+
+/* Footer */
+footer {
+    background-color: #E8E8E8;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    border-top: 2px solid white;
+    height: 40px
+}
+
+#copyright-icon {
+    font-size: 12px;
+}
+
+
+/* Larger Screens */
 @media screen and (min-width:600px) {
     .nav-header {
         font-size: 12px
