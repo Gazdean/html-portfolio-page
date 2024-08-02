@@ -18,7 +18,7 @@ function createLaser(elementId, x, y, width, height) {
     //laser styles
     laser.style.position = 'absolute';
     laser.style.top = '0px'
-    laser.style.width = '2px';
+    laser.style.width = `${width-0.5}px`;
     laser.style.height = '6px';
     laser.style.backgroundColor = 'red';
     
@@ -58,7 +58,7 @@ function logGunPosition() {
         const relativeRight = gunRect.right - homeCardRect.left;
         
         function createElementCall(num){
-            createLaser(`laserContainer${num}`, relativeLeft, relativeTop-4, 2, 5);
+            createLaser(`laserContainer${num}`, relativeLeft, relativeTop-4, 4, 5);
             counter ++
         }
         createElementCall(counter)
