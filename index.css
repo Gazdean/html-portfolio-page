@@ -103,30 +103,13 @@ a {
     overflow: hidden; 
     background: #E8E8E8;
     color: black;
-    animation: shadowPulse 7s infinite ease-in-out /*backgroundColorPulse 7s infinite ease-in-out */; 
+    animation: shadowPulse 7s infinite ease-in-out; 
 
 }
 
 #home-card h1, #home-card h2 {
     color: black;
 }
-/* @keyframes backgroundColorPulse {
-    0% {
-      background-color: #E8E8E8;
-    }
-    25% {
-      background-color: #ECECEC;
-    }
-    50% {
-      background-color: #F0F0F0;
-    }
-    75% {
-      background-color: #ECECEC;
-    }
-    100% {
-      background-color: #E8E8E8;
-    }
-  } */
 
 @keyframes shadowPulse {
     0% {
@@ -313,6 +296,7 @@ i {
     padding: 0px;
     
 }
+
 #skills-card {
     width: 100vw;
     color: #363838;
@@ -338,6 +322,7 @@ i {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    list-style-type: none;
 }
 
 #skills-list li {
