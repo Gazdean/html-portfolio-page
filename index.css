@@ -314,6 +314,13 @@ i {
     flex-wrap: wrap;
     justify-content: center
 }
+.skill-image {
+    width: auto;
+    height: 31.5px;
+    padding-top:10px;
+    padding-bottom: 4.5px
+}
+
 #skills-list {
     width: 100vw;
     color: #363838;
@@ -323,6 +330,7 @@ i {
     flex-wrap: wrap;
     justify-content: center;
     list-style-type: none;
+    margin-right: 40px
 }
 
 #skills-list li {
