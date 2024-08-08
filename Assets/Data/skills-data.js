@@ -15,6 +15,12 @@ const skillsData = [
     title: "React",
   },
   {
+    icon: "",
+    image:'express.png',
+    iconColor:"",
+    title: "Express JS",
+  },
+  {
     icon: "fa-brands fa-react",
     iconColor:"blue",
     title: "React Native",
@@ -62,13 +68,25 @@ const skillsData = [
   },
   {
     icon: "",
+    image: "jest.png",
     iconColor:"",
     title: "Jest Testing Framework",
   },
   {
     icon: "",
+    image: "",
     iconColor:"",
-    title: "DOM Document Object Model ",
+    title: "Super Test",
+  },
+  {
+    icon: "",
+    iconColor:"",
+    title: "DOM Document Object Model",
+  },
+  {
+    icon: "",
+    iconColor:"",
+    title: "DOM Manipulation",
   },
   {
     icon: "",
