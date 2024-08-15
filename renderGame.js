@@ -105,6 +105,10 @@ function activateGameControls() {
     shootButton.disabled === false ? gameControls.className = "gameControlsMoveDown": gameControls.className = "gameControlsMoveUp"
 }
 
-document.getElementById('shootLaser').addEventListener('click', setUpLasers);
-document.getElementById('reset').addEventListener('click', removeLasers);
-document.getElementById('gameControlArrow').addEventListener('click', activateGameControls);
+function renderGame() {
+    document.getElementById('shootLaser').addEventListener('click', setUpLasers);
+    document.getElementById('reset').addEventListener('click', removeLasers);
+    document.getElementById('gameControlArrow').addEventListener('click', activateGameControls);
+}
+
+export default renderGame
