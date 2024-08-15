@@ -25,5 +25,5 @@ function renderGallery() {
         galleryItems.appendChild(galleryItemElement);
     });
   }
-  // Call the function when the page is loaded
-  document.addEventListener("DOMContentLoaded", renderGallery());
+
+export default renderGallery
