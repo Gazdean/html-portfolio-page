@@ -58,6 +58,11 @@ const skillsData = [
   },
   {
     icon: "",
+    image:'fireBase.png',
+    title: "FireBase",
+  },
+  {
+    icon: "",
     iconColor:"",
     title: "T.D.D. Test Driven Development",
   },
