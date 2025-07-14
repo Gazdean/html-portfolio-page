@@ -10,9 +10,24 @@ const skillsData = [
     title: "CSS 3",
   },
   {
+    icon: "fa-brands fa-python",
+    iconColor:"blue",
+    title: "Python",
+  },
+  {
     icon: "fa-brands fa-react",
     iconColor:"blue",
     title: "React",
+  },
+  {
+    icon: "fa-solid fa-flask",
+    iconColor:"blue",
+    title: "Flask",
+  },
+  {
+    icon: "fa-solid fa-c",
+    iconColor:"blue",
+    title: "C",
   },
   {
     icon: "",
@@ -112,6 +127,11 @@ const skillsData = [
     icon: "",
     iconColor:"",
     title: "PostgreSQL",
+  },
+  {
+    icon: "",
+    iconColor:"",
+    title: "Jinja",
   },
   {
     icon: "",
